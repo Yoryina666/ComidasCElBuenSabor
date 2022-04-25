@@ -1,0 +1,88 @@
+*{
+    color:  rgb(233, 232, 232);
+}
+
+main{
+    background-color: rgba(0, 0, 0, 0.5);
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+aside{
+    text-align: center;
+}
+
+#principal{
+    text-align: center;
+}
+
+#tituloB{
+    font-size: 21px;
+    text-align: center;
+    color: #90ec6e;
+}
+
+.imagelist{
+    margin:2px;
+    cursor:pointer;
+}
+
+.imagelist:hover {
+    text-decoration: underline;
+}
+
+div#main div#visor div#infoCar {
+    float: right;
+    width:30%;
+    height:70%;
+    display:block;
+}
+
+.linkV{
+    margin-left: 90%;
+}
+
+.linkVolver{
+    text-align: right;
+    color: #90ec6e;
+    font-size: 20px;
+}
+
+.linkVolver:hover{
+    color: #90ec6e;
+}
+
+@media (max-width: 320px) {
+    .linkV{
+        margin-left: 0%;
+        text-align: center;
+    }
+}
+
+@media (max-width: 570px) {
+    #imgVista{
+        width: 200px;
+        height: 200px;
+    }
+    #img1, #img2, #img3, #img4{
+        width: 42px;
+        height: 40px;
+    }
+}
+
+@media (max-width: 765px) {
+    .parrafoB{
+        margin-left: 2%;
+        margin-right: 2%;
+        margin-bottom: 2%;
+        text-align: justify;
+    }
+}
+
+@media (max-width: 830px) {
+    .linkV{
+        margin-top: 2%;
+        margin-bottom: 2%;
+        margin-left: 80%;
+    }
+}

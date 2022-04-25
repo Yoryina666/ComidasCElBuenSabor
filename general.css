@@ -1,0 +1,200 @@
+* {
+  padding: 0;
+  margin: 0 auto;
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
+  color:  rgb(233, 232, 232);
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  background-image: url(fondo2.jpg);
+  background-size: cover;
+}
+
+header {
+  width: 100%;
+  height: 250px;
+  background-image: url(header2.jpeg);
+  background-size: cover;
+  position: relative;
+}
+
+.cHeader {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.imgLogo {
+  height: 225px;
+  float: left;
+  margin-top: 1%;
+}
+
+.tituloH {
+  color: white;
+  font-size: 45px;
+  font-weight: bold;
+  padding-top: 95px;
+  padding-right: 10%;
+  text-align: center;
+}
+
+.barraNav {
+  background-color: rgb(34, 33, 33);
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.dropdown-menu .dropdown-item {
+  background-color: rgb(34, 33, 33);
+  color: white;
+}
+
+.dropdown-menu .dropdown-item:hover {
+  background-color: grey;
+  color: white;
+}
+
+li:hover .dropdown-menu {
+  display: block;
+  background-color: rgb(34, 33, 33);
+}
+
+nav a {
+  font-size: 19px;
+  text-decoration: none;
+  color: white;
+  padding: 10px 65px 10px 65px;
+}
+
+.barraNav .linkVerde:hover {
+  color: #90ec6e;
+}
+
+.barraNav .linkAmarillo:hover {
+  color: #ffc300;
+}
+
+.barraNav .linkRojo:hover {
+  color: #e01b09;
+}
+
+#icono:hover {
+  background-color: grey;
+}
+
+.navegacion {
+  margin-top: 1%;
+  margin-bottom: 2%;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.link {
+  border-right: 1px solid #fff;
+}
+
+.navegacion .link {
+  padding-right: 10px;
+}
+
+.navegacion a {
+  text-decoration: none;
+  color: white;
+  font-size: large;
+  margin-left: 0.5%;
+}
+
+.navegacion a:hover {
+  color: #90ec6e;
+}
+
+.col-xs-5{
+  text-align: center;
+  line-height: 2;
+}
+
+.derechos {
+  font-size: large;
+}
+
+@media (max-width: 1400px) {
+  .barraNav a {
+    padding: 10px 55px 10px 55px;
+  }
+}
+
+@media (max-width: 1210px) {
+  .barraNav a {
+    padding: 10px 45px 10px 45px;
+  }
+}
+
+@media (max-width: 1090px) {
+  .barraNav a {
+    padding: 10px 40px 10px 40px;
+  }
+}
+
+@media (max-width: 1040px) {
+  .tituloH {
+    font-size: 2rem;
+    padding-top: 10%;
+  }
+  .barraNav a {
+    padding: 10px 35px 10px 35px;
+  }
+  .imgLogo{
+    margin-top: 1.5%;
+  }
+}
+
+@media (max-width: 900px) {
+  .col-xs-5{
+    width: 100%;
+  }
+}
+
+@media (max-width: 720px) {
+  header {
+    background-image: url(patty1.jpeg);
+    height: 210px;
+  }
+  .imgLogo {
+    height: 200px;
+  }
+}
+
+@media (max-width: 610px) {
+  .tituloH {
+    margin-bottom: 2%;
+  }
+}
+
+@media (max-width: 520px) {
+  .tituloH {
+    display: none;
+  }
+  .imgLogo{
+    float: none;
+    display: flex;
+    margin-top: 0%;
+    padding-top: 2%;
+    align-items: center;
+  }
+}

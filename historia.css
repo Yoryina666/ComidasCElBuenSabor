@@ -1,0 +1,28 @@
+main{
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: 0 auto;
+    padding-bottom: 0%;
+}
+
+p{
+    text-align: justify;
+    margin: 2% 5% 2% 5%;
+}
+
+.galeriaH{
+    width: 80%;
+
+}
+
+.tituloHistoria{
+    font-size: 18px;
+    color: #90ec6e;
+    text-align: center;
+    margin-bottom: 2%;
+}
+
+.galeria1, .galeria2{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 2%;
+}

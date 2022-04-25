@@ -1,0 +1,126 @@
+*{
+    color:  rgb(233, 232, 232);
+}
+
+main{
+    background-color: rgba(0, 0, 0, 0.5);
+    padding-top: 2%;
+    padding-bottom: 2%;
+    text-align: center;
+}
+
+.contenidoC1{
+    padding-bottom: 2%;
+}
+
+#titulo{
+    font-size: 22px;
+    color: #90ec6e;
+    text-align: center;
+    margin-bottom: 2%;
+}
+
+#imgC{
+    width: 20%;
+    height: 20%;
+}
+
+#ver{
+    margin-top: 1%;
+    background-color: rgb(34, 33, 33);
+    padding: 5px 10px;
+    border-color: dimgrey;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+#ver:hover{
+    background-color: dimgray;
+    border-color: dimgrey;
+}
+
+.contacto1{
+    margin-top: 1%;
+}
+
+.amarillo{
+    color: #ffc300;
+    text-decoration: none;
+}
+
+.amarillo:hover{
+    color: #ffc300;
+}
+
+.instruccion{
+    color: #90ec6e;
+    font-weight: bold;
+    margin-bottom: 1%;
+}
+
+.contenidoC2{
+    background-color: rgba(0, 0, 0, 0.5);
+    padding-top: 2%;
+    width: 60%;
+}
+
+.row{
+    margin: 0 auto;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+select, option{
+    color:black;
+}
+
+#btnC {
+    background-color: rgb(66, 66, 66);
+    border-color: rgb(66, 66, 66);
+    font-weight: bold;
+    font-size: 16px;
+    margin: 0 auto;
+    margin-bottom: 3%;
+}
+
+.contact_form input:focus:invalid, .contact_form textarea:focus:invalid {
+    background: #fff no-repeat 98% center;
+    box-shadow: 0 0 5px #90ec6e;
+    border-color: #90ec6e;
+}
+
+@media (max-width: 500px) {
+    #imgC{
+        width: 30%;
+        height: 30%;
+    }
+    #ver{
+        width: 40%;
+    }
+}
+
+@media (max-width: 800px) {
+    #ver{
+        font-size: 12px;
+    }
+    .contenidoC2{
+        width: 70%;
+    }    
+}
+
+@media (max-width: 520px) {
+    .opcionG{
+        width: 60%;
+    }   
+    .contenidoC2{
+        background-color: transparent;
+        width: 100%;
+    }
+    .col-10{
+        margin-right: 10%;
+    }
+    #GA{
+        overflow: scroll;
+        width: 0 auto;
+    }
+}
