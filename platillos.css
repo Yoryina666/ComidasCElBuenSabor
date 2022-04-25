@@ -1,0 +1,63 @@
+*{
+    color:  rgb(233, 232, 232);
+}
+
+main{
+    background-color: rgba(0, 0, 0, 0.5);
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+p{
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: justify;
+}
+
+.tituloA{
+    font-size: 20px;
+    text-align: center;
+    color: #90ec6e;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.card .btn{
+    background-color: forestgreen;
+    border-color: forestgreen;
+}
+
+.card .btn:hover{
+    background-color: #e6c55a;
+    border-color: #e6c55a;
+}
+
+.card{
+    height: 100%;
+}
+
+.video{
+    text-align: center;
+}
+
+.videoC13{
+    width: 0 auto;
+    height: 500px;
+}
+
+.menu{
+    text-decoration: none;
+    color: #FFC300;
+}
+
+.menu:hover{
+    color:  rgb(233, 232, 232);
+}
+
+@media (max-width: 540px) {
+    .videoC13{
+        height: 300px;
+        margin-top: 2%;
+        margin-bottom: 2%;
+    }
+}
