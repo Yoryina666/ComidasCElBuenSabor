@@ -1,0 +1,85 @@
+*{
+    color:  rgb(233, 232, 232);
+}
+
+main{
+    background-color: rgba(0, 0, 0, 0.5);
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.tituloPD{
+    font-size: 22px;
+    color: #90ec6e;
+    text-align: center;
+    margin-bottom: 2%;
+}
+
+.pCar{
+    font-size: 20px;
+    color: #FFC300;
+    text-align: center;
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+
+.pCaribeño, .pTipico, .pVariedades{
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 2%;
+    text-align: justify;
+}
+
+.imgPC{
+    width: 70%;
+    height: 70%;
+    margin-left: 15%;
+}
+
+.descripcionP{
+    margin-left: 2%;
+    margin-right: 2%;
+    text-align: justify;
+}
+
+.row{
+    margin-bottom: 1%;
+}
+
+#otrosPL{
+    margin-left: 82%;
+    padding-bottom: 2%;
+}
+
+.linkVolver, .linkVolverS, .linkBebidasS{
+    text-align: right;
+    color: #90ec6e;
+    font-size: 20px;
+    padding-right: 2%;
+}
+
+.linkVolver:hover, .linkVolverS:hover, .linkBebidasS:hover{
+    color: #90ec6e;
+}
+
+@media (max-width: 800px) {
+    .linkVolver{
+        padding-right: 5%;
+    }
+}
+
+@media (max-width: 992px) {
+    #otrosPL{
+        text-align: center;
+        margin-left: 1%;
+    }
+    .descripcionP{
+        text-align: justify;
+    }
+    .col-lg-4{
+        height: 0%;
+    }
+    .col-lg-3{
+        height: 0%;
+    }
+}

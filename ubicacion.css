@@ -1,0 +1,43 @@
+*{
+    color:  rgb(233, 232, 232);
+}
+
+main{
+    background-color: rgba(0, 0, 0, 0.5);
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+aside{
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.tituloUbi{
+    font-size: 22px;
+    text-align: center;
+    color: #90ec6e;
+    margin-bottom: 1%;
+}
+
+.horario{
+    color: #ffc300;
+}
+
+#map{
+    width: 80%;
+    height: 500px;
+    margin-bottom: 2%;
+}
+
+.recordatorio{
+    margin-top: 2%;
+    color: #ffc300;
+}
+
+@media (max-width: 453px) {
+    h6{
+        text-align: justify;
+    }
+}

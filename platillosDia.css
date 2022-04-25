@@ -1,0 +1,76 @@
+*{
+    color:  rgb(233, 232, 232);
+}
+
+main {
+     background-color: rgba(0, 0, 0, 0.5);
+}
+
+.contenido1{
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.tituloPD{
+    font-size: 22px;
+    text-align: center;
+    color: #90ec6e;
+}
+
+.platillosDia{
+    margin-bottom: 2%;
+}
+
+.dia{
+    font-size: 20px;
+    color: #FFC300;
+    text-align: center;
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+
+.imgP{
+    width: 60%;
+    height: 70%;
+    margin-left: 20%;
+}
+
+.nombreP{
+    font-size: 20px;
+    color: #e01b09;
+    text-align: center;
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+
+.descripcionP{
+    margin-left: 2%;
+    margin-right: 2%;
+    text-align: justify;
+}
+
+.linkVolver{
+    text-align: right;
+    color: #90ec6e;
+    font-size: 20px;
+    padding-right: 2%;
+}
+
+.linkVolver:hover{
+    color: #90ec6e;
+}
+
+@media (max-width: 800px) {
+    .linkVolver{
+        padding-right: 5%;
+    }
+}
+
+@media (max-width: 700px) {
+    .imgP {
+        height: auto;
+    }
+    .tituloPD{
+        margin-top: 2%;
+    }
+}
